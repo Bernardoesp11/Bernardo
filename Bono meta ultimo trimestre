@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta de Ventas 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meta de Ventas 2024</h1>
+
+        <div class="counter">
+            <h2>Contador de Días Restantes</h2>
+            <div id="countdown"></div>
+        </div>
+
+        <div class="progress">
+            <h2>Progreso hacia la Meta</h2>
+            <div class="circle-progress">
+                <svg width="150" height="150" viewBox="0 0 150 150">
+                    <circle cx="75" cy="75" r="70" stroke="white" stroke-width="10" fill="none"/>
+                    <circle id="progress-bar" cx="75" cy="75" r="70" stroke="purple" stroke-width="10" fill="none" stroke-dasharray="440" stroke-dashoffset="440"/>
+                </svg>
+                <p id="sales-info"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
